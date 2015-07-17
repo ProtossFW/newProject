@@ -14,9 +14,7 @@ var useFixedUpdate : boolean = true;
 @System.NonSerialized
 var inputMoveDirection : Vector3 = Vector3.zero;
 
-// Is the jump button held down? We use this interface instead of checking
-// for the jump button directly so this script can also be used by AIs.
-@System.NonSerialized
+
 var inputJump : boolean = false;
 
 class CharacterMotorMovement {
